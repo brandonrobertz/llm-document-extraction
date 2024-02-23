@@ -13,3 +13,8 @@ data/records:
 	find ./data/text/ -iname '*.txt' -exec basename {} \; \
 		| xargs -I{} sh -c 'python splitdoc.py "data/text/{}" "data/records/{}.json"'
 
+
+data/records_json:
+	mkdir -p $@
+	find data/records/ -iname '*.json' -exec basename {} \; \
+		| xargs -I{} sh -c 'python ./llm_extract.py --continue-from-outfile --model ../llama/models/mistral-7b-v0.1.Q5_K_M.gguf "data/records/{}" "data/records_json/{}.records.json"'
