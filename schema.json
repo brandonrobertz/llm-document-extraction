@@ -1,0 +1,76 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "Name of Entity": {
+      "type": "string"
+    },
+    "Address of Entity": {
+      "type": "string"
+    },
+    "Submitted by": {
+      "type": "string"
+    },
+    "Firm Name": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Telephone": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Relationship to Entity whose information was compromised": {
+      "type": "string"
+    },
+    "Dated": {
+      "type": "string"
+    },
+    "Type of Organization": {
+      "type": "string"
+    },
+    "Total Number of Persons Affected": {
+      "type": "number"
+    },
+    "NYS Residents Affected": {
+      "type": "number"
+    },
+    "Date Breach Occurred": {
+      "type": "string"
+    },
+    "Date Breach Discovered": {
+      "type": "string"
+    },
+    "Date of Consumer Notification": {
+      "type": "string"
+    },
+    "Brief Description of Breach": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "Information Acquired": {
+      "type": "string"
+    },
+    "Manner of Notification to Affected Persons": {
+      "type": "string"
+    },
+    "List dates of any previous (within 12 months) breach notifications": {
+      "type": "string"
+    },
+    "Identify Theft Protection Service Offered": {
+      "type": "string"
+    },
+    "Duration": {
+      "type": "string"
+    },
+    "Provider": {
+      "type": "string"
+    },
+    "Brief Description of Service": {
+      "type": "string"
+    }
+  }
+}
