@@ -1,0 +1,3 @@
+[submodule "florence-ocr"]
+	path = florence-ocr
+	url = git@github.com:brandonrobertz/florence-ocr.git
